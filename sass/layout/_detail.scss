@@ -1,0 +1,19 @@
+.detail {
+    display: flex;
+    padding: 4.5rem;
+    background-color: $color-grey-light-1;
+    border-bottom: 1px solid $color-grey-light-2 ;
+}
+
+.description {
+    background-color: #fff;
+    box-shadow: $shadow-light;
+    padding: 3rem;
+    flex: 0 0 60%;
+    margin-right: .5rem;
+    font-size: 1.4rem;
+}
+
+.use-reviews {
+    flex: 1;
+}
