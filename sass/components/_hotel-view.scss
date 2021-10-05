@@ -18,6 +18,11 @@
         text-transform: uppercase;
         letter-spacing: 1px;
         padding: 1.5rem 3rem;
+
+        @media only screen and (max-width: $bp-small){
+            font-size: 1.8rem;
+            padding: 1.25rem 2rem;
+        }
     }
 
     &__stars{
@@ -55,16 +60,28 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+
+        @media only screen and (max-width: $bp-small){
+            padding: 0 1.5rem;
+        }
     }
 
     &__rating-average {
         font-size: 2.25rem;
         font-weight: 300;
         margin-bottom: -.3rem;
+
+        @media only screen and (max-width: $bp-small){
+            font-size: 1.8rem;
+        }
     }
 
     &__rating-count {
         font-size: .8rem;
+
+        @media only screen and (max-width: $bp-small){
+            font-size: .5rem;
+        }
     }
 }
 
@@ -114,7 +131,7 @@
     }
 
     &__friends {
-
+        display: flex;
     }
 
     &__photo{
@@ -125,7 +142,9 @@
         border: .3rem solid #fff;
 
         &:not(:last-child) {
-            margin-right: -1.5rem;
+            margin-right: -2rem;
         }
     }
 }
+
+

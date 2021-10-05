@@ -12,3 +12,10 @@ $color-grey-dark-3: #999;
 
 $shadow-standard: 0 2rem 6rem rgba(0,0,0,.3);
 $shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
+
+//bp for breakpoint
+$bp-largest: 75em; //1200/16=75
+$bp-large: 68.75em; //1100/16=68.75
+$bp-medium: 56.25em; //900/16=56.25
+$bp-small: 37.5em; //600px/16=37.5em
+$bp-smallest: 31.25em ; //500/16=31.25em
